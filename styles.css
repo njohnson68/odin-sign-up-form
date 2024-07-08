@@ -1,0 +1,59 @@
+@font-face {
+  font-family: norse;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+  background-color: lightgrey;
+  display: flex;
+}
+
+.fs {
+  background-color: white;
+}
+
+.create {
+  background-color: #596d48;
+  color: white;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.background-image {
+  width: 500px;
+  height: auto;
+}
+
+.logo-text {
+  font-family: norse;
+  font-size: 65px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.credit {
+  position: relative;
+  text-align: center;
+  margin-top: -2rem;
+  color: white;
+}
+
+.credit a {
+  color: white;
+}
+
+.logo-container {
+  width: 500px;
+  height: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: absolute;
+  top: 8rem;
+  justify-content: center;
+}
