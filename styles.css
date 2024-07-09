@@ -24,7 +24,7 @@ input:invalid {
 }
 
 .background-image {
-  width: 500px;
+  width: 33rem;
   height: auto;
 }
 
@@ -61,7 +61,7 @@ input:invalid {
 }
 .top-text {
   margin-left: 3rem;
-  margin-top: 9rem;
+  margin-top: 6rem;
   margin-right: 13rem;
   font-size: 25px;
 }
@@ -105,6 +105,7 @@ label {
 .lets {
   font-size: 25px;
   margin-bottom: 1rem;
+  margin-top: 0.5rem;
   margin-left: 2rem;
 }
 
@@ -112,4 +113,8 @@ label {
   text-decoration: none;
   color: #596d48;
   font-weight: bold;
+}
+
+table {
+  margin-left: 2rem;
 }
