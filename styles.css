@@ -21,7 +21,7 @@ input:focus {
 
 .background-image {
   width: 33rem;
-  height: auto;
+  height: 100vh;
 }
 
 .logo-text {
