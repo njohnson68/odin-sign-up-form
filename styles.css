@@ -6,6 +6,8 @@
 body {
   background-color: lightgrey;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .fs {
@@ -56,4 +58,58 @@ input:invalid {
   position: absolute;
   top: 8rem;
   justify-content: center;
+}
+.top-text {
+  margin-left: 3rem;
+  margin-top: 9rem;
+  margin-right: 13rem;
+  font-size: 25px;
+}
+
+.fs {
+  border-style: none;
+  box-shadow: 0px 1px 5px grey;
+}
+
+.create {
+  padding: 1rem 0.5rem;
+  margin: 2rem 3rem 1rem;
+  width: 12rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-size: 15px;
+}
+
+.create:hover {
+  cursor: pointer;
+}
+
+.already {
+  margin-left: 3rem;
+}
+
+.you-know {
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  margin-right: 13rem;
+  margin-bottom: 4rem;
+  font-size: 25px;
+}
+
+label {
+  color: rgb(93, 93, 93);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.lets {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.login {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
 }
